@@ -51,7 +51,7 @@
 /* Enable NKRO - Up to 248 keys at the same time. */
 #define FORCE_NKRO
 
-#define RGBLIGHT_SLEEP
+#define RGB_DISABLE_WHEN_USB_SUSPENDED 1 // turn off effects when suspended
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 //#define LOCKING_SUPPORT_ENABLE
